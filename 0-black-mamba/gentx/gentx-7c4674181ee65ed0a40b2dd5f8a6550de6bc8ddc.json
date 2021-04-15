@@ -1,0 +1,46 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "VaOne",
+            "identity": "",
+            "website": "",
+            "security_contact": "",
+            "details": ""
+          },
+          "commission": {
+            "rate": "0.100000000000000000",
+            "max_rate": "0.200000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "front17akt9fv25u2fd4rm33xy7q54qw62qk4cwe4e42",
+          "validator_address": "frontvaloper17akt9fv25u2fd4rm33xy7q54qw62qk4c6k8hu6",
+          "pubkey": "frontvalconspub1zcjduepqcrtpga7yr6m0k9ffnzhay8l5cv7entnq4kf8eclvnewer9tfg9js6hd08q",
+          "value": {
+            "denom": "front",
+            "amount": "1000000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A2eYGjYSNN2siP6TWBl+oGJQh4wrcJYk3D/zu9osPCOd"
+        },
+        "signature": "WICvpb3/ilUyy3hZwBmg4sgL1Z0CGptlr536/BBrXJQPgQ3lP2guB5RZn89SKOhCxEWT8dZGDp/rx9ln97gfhA=="
+      }
+    ],
+    "memo": "7c4674181ee65ed0a40b2dd5f8a6550de6bc8ddc@10.156.0.3:26656"
+  }
+}
